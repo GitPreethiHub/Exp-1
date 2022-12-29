@@ -44,7 +44,7 @@ class WebHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(content.encode())
     
-server_address=('http://preethi.student.saveetha.in:8080/',8080)
+server_address=('',8080)
 httpd=HTTPServer(server_address,WebHandler)
 print("Web server running...")
 httpd.serve_forever()   
