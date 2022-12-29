@@ -49,6 +49,7 @@ httpd=HTTPServer(server_address,WebHandler)
 print("Web server running...")
 httpd.serve_forever()   
 
+
 ## OUTPUT:
   ### Server side output
 ![Server side output](./images/ServerSide.png)
