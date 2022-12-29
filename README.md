@@ -54,7 +54,9 @@ httpd.serve_forever()
 ![Server side output](./images/ServerSide.png)
   
  ### Client side output
+![Server side output](./images/output.png)
 ![Server side output](./images/output1.png)
+![Server side output](./images/output2.png)
 
 ## RESULT:
 The program is executed succesfully
