@@ -44,12 +44,17 @@ class WebHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(content.encode())
     
-server_address=('',8080)
+server_address=('',8000)
 httpd=HTTPServer(server_address,WebHandler)
 print("Web server running...")
 httpd.serve_forever()   
 
 ## OUTPUT:
+  ### Server side output
+![Server side output](./images/ServerSide.png)
+  
+ ### Client side output
+![Server side output](./images/output1.png)
 
 ## RESULT:
 The program is executed succesfully
